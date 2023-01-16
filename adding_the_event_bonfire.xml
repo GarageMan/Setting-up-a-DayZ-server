@@ -1,0 +1,114 @@
+<!-- add the following lines to the file 'types.xml' -->
+
+	<type name="Bonfire">
+		<nominal>0</nominal>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+ 
+ 
+<!-- add the following lines to the file 'events.xml' -->
+ 
+ 	<event name="StaticBonfire">
+		<nominal>5</nominal>                                                <!-- 5 events -->
+		<min>0</min>
+		<max>0</max>
+		<lifetime>86400</lifetime>                                          <!-- 24hrs -->
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>5</distanceradius>
+		<cleanupradius>2500</cleanupradius>
+		<secondary>ZmbM_FirefighterNormal</secondary>                       <!-- On Enoch and Chernarus: InfectedFirefighter -->
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>child</limit>
+    <active>1</active>                                                  <!-- set to 1 to active the event -->
+		<children>
+			<child lootmax="8" lootmin="4" max="5" min="5" type="Bonfire"/>		<!-- max & min have to be equal to nominal! -->
+		</children>
+	</event>
+  
+  
+<!-- add the following lines to the file 'mapgroupspos.xml -->
+  
+  	<group name="Bonfire" lootmax="5">
+		<container name="Floor" lootmax="5">
+			<category name="containers" />
+			<tag name="seasonalevent" />
+			<point pos="2.876667 0.5 3.211807" range="1.65" height="1.5" flags="32" />
+			<point pos="2.496737 0.5 -3.174454" range="1.65" height="1.5" flags="32" />
+			<point pos="-3.760472 0.5 3.067368" range="1.65" height="1.5" flags="32" />
+			<point pos="-2.757211 0.5 -2.885785" range="1.65" height="1.5" flags="32" />
+			<point pos="-3.068999 0.5 0.274213" range="1.65" height="1.5" flags="32" />
+			<point pos="3.068931 0.5 0.468461" range="1.65" height="1.5" flags="32" />
+			<point pos="0.829929 0.5 3.131861" range="1.65" height="1.5" flags="32" />
+			<point pos="0.975612 0.5 -3.178558" range="1.65" height="1.5" flags="32" />
+		</container>
+	</group>
+
+<!-- add the following lines to the file 'cfgspawnables.xml -->
+
+	<event name="StaticBonfire">								<!--  event will be triggert via the event.xml  -->
+		<zone smin="3" smax="5" dmin="3" dmax="5" r="55" />
+		<pos x="1214.244385" z="11837.542969" a="-1.0" />
+		<pos x="2870.648682" z="6359.111328" a="-1.0" />
+		<pos x="3208.972656" z="5975.039063" a="-1.0" />
+		<pos x="3455.905273" z="6682.13623" a="-1.0" />
+		<pos x="3566.197998" z="8886.884766" a="-1.0" />
+		<pos x="3957.675293" z="7551.757324" a="-1.0" />
+		<pos x="3959.859131" z="9384.238281" a="-1.0" />
+		<pos x="4021.057861" z="5789.468262" a="-1.0" />
+		<pos x="4141.02002" z="7382.759766" a="-1.0" />
+		<pos x="4208.385742" z="6609.20166" a="-1.0" />
+		<pos x="4222.47168" z="8966.384766" a="-1.0" />
+		<pos x="4342.939453" z="4766.740234" a="-1.0" />
+		<pos x="4835.844238" z="6182.922363" a="-1.0" />
+		<pos x="5030.77002" z="6087.620117" a="-1.0" />
+		<pos x="5270.981934" z="7188.873047" a="-1.0" />
+		<pos x="5569.025879" z="11039.063477" a="-1.0" />
+		<pos x="5665.252441" z="10364.305664" a="-1.0" />
+		<pos x="5701.300781" z="5426.05957" a="-1.0" />
+		<pos x="5723.777832" z="9809.483398" a="-1.0" />
+		<pos x="5784.551758" z="10767.363281" a="-1.0" />
+		<pos x="6003.200684" z="6590.395996" a="-1.0" />
+		<pos x="6155.844727" z="9901.024414" a="-1.0" />
+		<pos x="6172.786133" z="5736.286133" a="-1.0" />
+		<pos x="6259.963379" z="10913.365234" a="-1.0" />
+		<pos x="6292.108887" z="9537.189453" a="-1.0" />
+		<pos x="6319.359375" z="9344.091797" a="-1.0" />
+		<pos x="6344.641602" z="10619.891602" a="-1.0" />
+		<pos x="6395.230469" z="10972.512695" a="-1.0" />
+		<pos x="6462.338867" z="9276.811523" a="-1.0" />
+		<pos x="6505.767578" z="10723.350586" a="-1.0" />
+		<pos x="6605.958984" z="9604.052734" a="-1.0" />
+		<pos x="6629.711914" z="11163.710938" a="-1.0" />
+		<pos x="6723.701172" z="11042.864258" a="-1.0" />
+		<pos x="6764.432617" z="11283.739258" a="-1.0" />
+		<pos x="6830.745605" z="11272.827148" a="-1.0" />
+		<pos x="6908.296875" z="7533.358887" a="-1.0" />
+		<pos x="6926.12793" z="11425.833984" a="-1.0" />
+		<pos x="7020.910645" z="5838.20459" a="-1.0" />
+		<pos x="7059.309082" z="6242.832031" a="-1.0" />
+		<pos x="7137.861816" z="10778.030273" a="-1.0" />
+		<pos x="7191.839844" z="10339.584961" a="-1.0" />
+		<pos x="7200.448242" z="10852.646484" a="-1.0" />
+		<pos x="7251.20459" z="7041.25" a="-1.0" />
+		<pos x="7347.081543" z="7968.860352" a="-1.0" />
+		<pos x="7606.805176" z="11249.032227" a="-1.0" />
+		<pos x="7644.913574" z="8727.550781" a="-1.0" />
+		<pos x="7656.600098" z="7416.930176" a="-1.0" />
+		<pos x="7704.791016" z="5805.944336" a="-1.0" />
+		<pos x="7890.509766" z="7736.169922" a="-1.0" />
+		<pos x="7923.38623" z="10702.111328" a="-1.0" />
+		<pos x="8054.018555" z="11215.198242" a="-1.0" />
+		<pos x="8074.849121" z="10858.814453" a="-1.0" />
+		<pos x="8317.514648" z="10712.849609" a="-1.0" />
+		<pos x="8425.958008" z="10327.09375" a="-1.0" />
+		<pos x="8574.466797" z="10599.115234" a="-1.0" />
+		<pos x="9049.914063" z="10159.124023" a="-1.0" />
+	</event>
