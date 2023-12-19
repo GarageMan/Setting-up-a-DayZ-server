@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- XZone STALKER Mutants cfgspawnabletypes -->
+<spawnabletypes>
+
+	<type name="Mutant_XZ_Izlom1">
+		<cargo preset="XZizlomloot" />
+		<cargo preset="add_a_rare_item" />		
+	</type>
+	<type name="Mutant_XZ_Krovosos2">
+		<cargo preset="XZkrovososloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Mutant_XZ_Krovosos3">
+		<cargo preset="XZkrovososloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Mutant_XZ_Snork1">
+		<cargo preset="XZsnorkloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Civ_Trup1">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Civ_Trup2">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Civ_Trup3">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Civ_Trup4">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Civ_Trup5">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Novice1">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Novice2">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Novice3">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Novice4">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Novice5">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Novice6">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Novice7">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Loner_Zorya">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Duty_Zorya">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Freedom_Zorya">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+	<type name="Zombi_XZ_Monolith_Zorya">
+		<cargo preset="XZzombiloot" />
+		<cargo preset="add_a_rare_item" />	
+	</type>
+</spawnabletypes>
