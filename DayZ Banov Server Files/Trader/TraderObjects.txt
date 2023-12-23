@@ -1,0 +1,223 @@
+// Banov Trader
+
+// ID=0 - Grozery and Hunting
+<TraderMarker> 			0
+<TraderMarkerPosition>	7424.61,	234.191,	4986.52
+<TraderMarkerSafezone>	30
+
+// ID=1 - Civilian Clothing
+<TraderMarker> 			1
+<TraderMarkerPosition>	7458.03,	234.91,		5001.12
+<TraderMarkerSafezone>	30
+
+// ID=2 - Vehicle Accessories and Tools
+<TraderMarker> 			2
+<TraderMarkerPosition>	7387.126,	235.23,		4985.1
+<TraderMarkerSafezone>	30
+
+// ID=3 - Tools and Storage
+<TraderMarker> 			3
+<TraderMarkerPosition>	7433.5,		235.191,	4980.12
+<TraderMarkerSafezone>	30
+
+// ID=4 - Medical
+<TraderMarker> 			4
+<TraderMarkerPosition>	7454.39,	234.932,	4981.59
+<TraderMarkerSafezone>	30
+
+// ID=5 - Vehicles and Parts
+<TraderMarker> 			5
+<TraderMarkerPosition>	7411.88,	234.9,		4992.24
+<TraderMarkerSafezone>	30
+<VehicleSpawn>			7406.98,	235.4,		4997.33
+<VehicleSpawnOri>		-6,			0,			0
+
+// ID=6 - Military Clothing
+<TraderMarker> 			6
+<TraderMarkerPosition>	7403.03,	241.0,		4986.14
+<TraderMarkerSafezone>	30
+
+// ID=7 - Weapons
+<TraderMarker> 			7
+<TraderMarkerPosition>	7397.14,	241.193,	4984.580
+<TraderMarkerSafezone>	30
+
+// ID=8 - Weapon Attachments and Accessories, Magazines
+<TraderMarker> 			8
+<TraderMarkerPosition>	7391.10,	241.203,	4984.56
+<TraderMarkerSafezone>	30
+
+// ID=9 - Rare Items and Collectables
+<TraderMarker> 			9
+<TraderMarkerPosition>	7455.84,	236.017,	5012.31
+<TraderMarkerSafezone>	30
+
+// ID=10 - Helicopter Parts
+<TraderMarker> 			10
+<TraderMarkerPosition>	4872.14,	201.407,	4697.73
+<TraderMarkerSafezone>	100
+// Incl. the vehicle spawn location? and the heli-pad??
+
+// ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
+	
+// Banov
+
+<Object> 			DC_BankingATMRed
+<ObjectPosition>	7423.27,	234.9,		4987.39
+<ObjectOrientation>	83.5,		0.0,		0.0
+<ObjectAttachment>	NPC_DUMMY
+
+// The BOT in front of the parking lot.
+<Object> 			SurvivorM_Niki
+<ObjectPosition>	7406.85,	234.901,	4991.04
+<ObjectOrientation>	0.0,		0.0,		0.0	
+<ObjectAttachment>	CarRadiator
+<ObjectAttachment>	Loftd_aidansuit_jacket_crew
+<ObjectAttachment>	Loftd_aidansuit_pants_crew
+<ObjectAttachment>	AthleticShoes_Blue
+<ObjectAttachment>	BaseballCap_Blue
+<ObjectAttachment>	HipPack_Party
+<ObjectAttachment>	PaddedGloves_Threat
+
+// ID=0 - Grozery and Hunting
+<Object> 			SurvivorF_Linda
+<ObjectPosition>	7424.61,	234.191,	4986.52
+<ObjectOrientation>	100.0,		0.0,		0.0
+<ObjectAttachment>	KitchenKnife
+<ObjectAttachment>	SurgicalGloves_White
+<ObjectAttachment>	Sweater_Green
+<ObjectAttachment>	MedicalScrubsHat_White
+<ObjectAttachment>	Jeans_Black
+<ObjectAttachment>	JoggingShoes_Black
+
+// ID=1 - Civilian Clothing
+<Object> 			SurvivorF_Frida
+<ObjectPosition>	7458.03,	234.91,		5001.12
+<ObjectOrientation>	-135,		0,			0	
+<ObjectAttachment>	ThinFramesGlasses
+<ObjectAttachment>	ZmijovkaCap_Red
+<ObjectAttachment>	QuiltedJacket_Yellow
+<ObjectAttachment>	Jeans_Black
+<ObjectAttachment>	Sneakers_Red
+<ObjectAttachment>	DuffelBagSmall_Green
+
+// ID=2 - Vehicle Accessories and Tools
+<Object> 			SurvivorM_Lewis
+<ObjectPosition>	7387.126,	235.23,		4985.12
+<ObjectOrientation>	41.5,		0.0,		0.0
+<ObjectAttachment>	Wrench
+<ObjectAttachment>	WorkingGloves_Brown
+<ObjectAttachment>	BeanieHat_Brown
+<ObjectAttachment>	JumpsuitJacket_Gray
+<ObjectAttachment>	JumpsuitPants_Grey
+<ObjectAttachment>	Sneakers_Black
+<ObjectAttachment>	CanvasBag_Olive
+
+// ID=3 - Tools and Storage
+<Object> 			SurvivorM_Jose
+<ObjectPosition>	7433.5,		235.191,	4980.12
+<ObjectOrientation>	-30,		0.0,		0.0
+<ObjectAttachment>	Hammer
+<ObjectAttachment>	WorkingGloves_Brown
+<ObjectAttachment>	BeanieHat_Brown
+<ObjectAttachment>	Sweater_Blue
+<ObjectAttachment>	Loftd_aidansuit_pants_reinfeld
+<ObjectAttachment>	Loftd_vagabondboots_red
+
+// ID=4 - Medical
+<Object> 			SurvivorF_Helga
+<ObjectPosition>	7454.39,	234.932,	4981.59
+<ObjectOrientation>	0.0,		0.0,		0.0
+<ObjectAttachment>	DisinfectantSpray
+<ObjectAttachment>	ThinFramesGlasses
+<ObjectAttachment>	MedicalScrubsHat_Blue
+<ObjectAttachment>	LabCoat
+<ObjectAttachment>	MedicalScrubsShirt_White
+<ObjectAttachment>	MedicalScrubsPants_Blue
+<ObjectAttachment>	Sneakers_White
+<ObjectAttachment>	CanvasBag_Medical
+
+// ID=5 - Vehicles and Parts
+<Object> 			SurvivorM_Guo
+<ObjectPosition>	7411.88,	234.9,		4992.24
+<ObjectOrientation>	-8.0,		0.0,		0.0
+<ObjectAttachment>	LugWrench
+<ObjectAttachment>	SportGlasses_Orange
+<ObjectAttachment>	ManSuit_Black
+<ObjectAttachment>	SlacksPants_Black
+<ObjectAttachment>	DressShoes_Black
+<ObjectAttachment>	BeanieHat_Black
+<ObjectAttachment>	HipPack_Black
+<VehicleSpawn>		3719.71,	402.012,	5994.85
+<VehicleSpawnOri>	-42,		0,			0
+
+// ID=6 - Military Clothing
+<Object> 			SurvivorM_Boris
+<ObjectPosition>	7403.03,	241.0,		4986.14
+<ObjectOrientation>	-1.0,		0.0,		0.0
+<ObjectAttachment>	GorkaEJacket_Autumn
+<ObjectAttachment>	GorkaPants_Autumn
+<ObjectAttachment>	JungleBoots_Olive
+<ObjectAttachment>	TankerHelmet
+<ObjectAttachment>	SportGlasses_Blue
+<ObjectAttachment>	DuffelBagSmall_Camo
+<ObjectAttachment>	SmershVest
+
+// ID=7 - Weapons
+<Object> 			SurvivorM_Seth
+<ObjectPosition>	7397.14,	241.19,	4984.580
+<ObjectOrientation>	0.0,		0.0,		0.0
+<ObjectAttachment>	M4A1
+<ObjectAttachment>	M4_RISHndgrd
+<ObjectAttachment>	Universallight
+<ObjectAttachment>	M4_OEBttstck
+<ObjectAttachment>	Mag_CMAG_20Rnd
+<ObjectAttachment>	M68Optic
+<ObjectAttachment>	MilitaryBeret_UN
+<ObjectAttachment>	TacticalGloves_Black
+<ObjectAttachment>	M65Jacket_Olive
+<ObjectAttachment>	PlateCarrierVest
+<ObjectAttachment>	Jeans_Black
+<ObjectAttachment>	CombatBoots_Black
+
+// ID=8 - Weapon Attachments and Accessories, Magazines
+<Object> 			SurvivorF_Maria
+<ObjectPosition>	7391.10,	241.20,	4984.56
+<ObjectOrientation>	0.0,		0.0,		0.0
+<ObjectAttachment>	Loftd_carabinbelt
+<ObjectAttachment>	Loftd_dragonkatanascabbard
+<ObjectAttachment>	Loftd_dragonkatana
+<ObjectAttachment>	Loftd_MiniDress_sakura
+<ObjectAttachment>	Latex_Leggings
+<ObjectAttachment>	High_Knee_Sneakers
+
+// ID=9 - Rare Items
+<Object> 			SurvivorF_Baty
+<ObjectPosition>	7455.84,	236.017,	5012.31
+<ObjectOrientation>	-99.0,		0.0,		0.0
+<ObjectAttachment>	Loftd_Shoulderholster_black
+<ObjectAttachment>	Deagle_Gold
+<ObjectAttachment>	Mag_Deagle_9rnd
+<ObjectAttachment>	PistolSuppressor
+<ObjectAttachment>	Loftd_BeanieHatF
+<ObjectAttachment>	Loftd_Reinajacket_teh
+<ObjectAttachment>	Loftd_Leggings2
+<ObjectAttachment>	High_Knee_Sneakers_Black
+<ObjectAttachment>	WoolGlovesFingerless_Black
+
+// ID=10 - Helicopter Parts and Equipment-Trader
+<Object> 			SurvivorM_Quinn
+<ObjectPosition>	4872.14,	201.407,	4697.73
+<ObjectOrientation>	63.0,		0.0,		0.0
+<ObjectAttachment>	Loftd_Shoulderholster_black
+<ObjectAttachment>	Deagle_Gold
+<ObjectAttachment>	Mag_Deagle_9rnd
+<ObjectAttachment>	PistolSuppressor
+<ObjectAttachment>	AviatorGlasses
+<ObjectAttachment>	PetushokHat_Yellow
+<ObjectAttachment>	Loftd_bomberjacket
+<ObjectAttachment>	WorkingGloves_Black
+<ObjectAttachment>	CargoPants_Blue
+<ObjectAttachment>	MilitaryBoots_Black
+
+<FileEnd>												// This has to be on the End of this File and is very importand!
