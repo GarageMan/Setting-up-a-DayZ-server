@@ -1,0 +1,184 @@
+// Namalsk Traders
+
+//	<ObjectAttachment>	NPC_DUMMY	
+	// Add this if you are using an non Character Object for an Trader (like Vending Machines, etc.). 
+	// It is needed to make the User Action for the Trading Menu work.
+
+// Traders at Marketplace on Tara 
+
+	// ID=0 - Grozery and Hunting
+	<TraderMarker> 			0
+	<TraderMarkerPosition>	7239.86,	238.26,	7039.84
+	<TraderMarkerSafezone>	30
+
+	// ID=1 - Tools and Storage
+	<TraderMarker> 			1
+	<TraderMarkerPosition>	7253.25,	238.844,	7057.54
+	<TraderMarkerSafezone>	30
+	
+	// ID=2 - Military Clothing
+	<TraderMarker> 			2
+	<TraderMarkerPosition>	7260.69,	238.144,	7031.29
+	<TraderMarkerSafezone>	30
+
+	// ID=3 - Weapons
+	<TraderMarker> 			3
+	<TraderMarkerPosition>	7259.49,	238.143,	7033.49
+	<TraderMarkerSafezone>	30
+
+	// ID=4 - Weapon Attachments and Accessories, Magazines
+	<TraderMarker> 			4
+	<TraderMarkerPosition>	7256.29,	238.15,		7024.09
+	<TraderMarkerSafezone>	30	
+
+// Traders at the Factory
+
+	// ID=5 - Vehicle Accessories and Tools
+	<TraderMarker> 			5
+	<TraderMarkerPosition>	5768.97,	50.97,		8637.97
+	<TraderMarkerSafezone>	30
+
+	// ID=6 - Vehicles and Parts
+	<TraderMarker> 			6
+	<TraderMarkerPosition>	5769.54,	51.84,		8635.64
+	<TraderMarkerSafezone>	30
+	<VehicleSpawn>			5770.32,	50.93,		8629.54
+	<VehicleSpawnOri>		-81.5,			0,		0	// Optional Vehicle Spawnpoint Orientation: Yaw, Pitch, Roll 
+
+//	Rare item trader in the Container at the seaside of Brensk 
+
+	// ID=7 - Rare Items and Collectables
+	<TraderMarker> 			7
+	<TraderMarkerPosition>	4343.85,	4.23,		4742.86
+	<TraderMarkerSafezone>	15
+
+// Trader on the Airport 
+
+	// ID=8 - Helicopter Parts
+	<TraderMarker> 			8
+	<TraderMarkerPosition>	6328.37,	20.84,		9426.25
+	<TraderMarkerSafezone>	15
+
+// ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
+	
+// Namalsk
+
+	// ID=0 - Grozery and Hunting
+	<Object> 			SurvivorF_Linda
+	<ObjectPosition>	7239.86,	238.26,	7039.84
+	<ObjectOrientation>	-180,	0,	0
+	<ObjectAttachment>	KitchenKnife
+	<ObjectAttachment>	PaddedGloves_Threat
+	<ObjectAttachment>	Sweater_Green
+	<ObjectAttachment>	MedicalScrubsHat_White
+	<ObjectAttachment>	Jeans_Black
+	<ObjectAttachment>	JoggingShoes_Black
+
+	// ID=1 - Tools and Storage
+	<Object> 			SurvivorM_Jose
+	<ObjectPosition>	7253.25,	238.844,	7057.54
+	<ObjectOrientation>	130,	0,	0,
+	<ObjectAttachment>	Hammer
+	<ObjectAttachment>	WorkingGloves_Brown
+	<ObjectAttachment>	BeanieHat_Brown
+	<ObjectAttachment>	Sweater_Blue
+	<ObjectAttachment>	Loftd_aidansuit_pants_reinfeld
+	<ObjectAttachment>	Loftd_vagabondboots_red
+
+	// ID=2 - Military Clothing
+	<Object> 			SurvivorM_Seth
+	<ObjectPosition>	7260.69,	238.144,	7031.29
+	<ObjectOrientation>	190,	0,	0
+	<ObjectAttachment>	GorkaEJacket_Autumn
+	<ObjectAttachment>	GorkaPants_Autumn
+	<ObjectAttachment>	JungleBoots_Olive
+	<ObjectAttachment>	WorkingGloves_Black
+	<ObjectAttachment>	TankerHelmet
+	<ObjectAttachment>	SportGlasses_Blue
+	<ObjectAttachment>	DuffelBagSmall_Camo
+	<ObjectAttachment>	SmershVest
+
+	// ID=3 - Weapons
+	<Object> 			SurvivorM_Boris
+	<ObjectPosition>	7259.49,	238.143,	7033.49
+	<ObjectOrientation>	-60,	0,	0
+	<ObjectAttachment>	M4A1
+	<ObjectAttachment>	M4_RISHndgrd
+	<ObjectAttachment>	Universallight
+	<ObjectAttachment>	M4_OEBttstck
+	<ObjectAttachment>	Mag_CMAG_20Rnd
+	<ObjectAttachment>	M68Optic
+	<ObjectAttachment>	MilitaryBeret_UN
+	<ObjectAttachment>	TacticalGloves_Black
+	<ObjectAttachment>	M65Jacket_Olive
+	<ObjectAttachment>	PlateCarrierVest
+	<ObjectAttachment>	Jeans_Black
+	<ObjectAttachment>	CombatBoots_Black
+
+	// ID=4 - Weapon Attachments and Accessories, Magazines
+	<Object> 			SurvivorF_Maria
+	<ObjectPosition>	7256.29,	238.15,	7024.09
+	<ObjectOrientation>	0,	0,	0
+	<ObjectAttachment>	Loftd_carabinbelt
+	<ObjectAttachment>	Loftd_dragonkatanascabbard
+	<ObjectAttachment>	Loftd_dragonkatana
+	<ObjectAttachment>	Loftd_MiniDress_sakura
+	<ObjectAttachment>	WoolGlovesFingerless_Black
+	<ObjectAttachment>	Latex_Leggings
+	<ObjectAttachment>	High_Knee_Sneakers
+
+	// ID=5 - Vehicle Accessories and Tools
+	<Object> 			SurvivorM_Lewis
+	<ObjectPosition>	5768.97,	50.97,	8637.97
+	<ObjectOrientation>	75 ,	0,	0
+	<ObjectAttachment>	Wrench
+	<ObjectAttachment>	WorkingGloves_Brown
+	<ObjectAttachment>	BeanieHat_Brown
+	<ObjectAttachment>	JumpsuitJacket_Gray
+	<ObjectAttachment>	JumpsuitPants_Grey
+	<ObjectAttachment>	Sneakers_Black
+	<ObjectAttachment>	CanvasBag_Olive
+
+	// ID=6 - Vehicles and Parts
+	<Object> 			SurvivorM_Guo
+	<ObjectPosition>	5769.54,	51.84,	8635.64
+	<ObjectOrientation>	-125.716,	0,	0
+	<ObjectAttachment>	LugWrench
+	<ObjectAttachment>	SportGlasses_Orange
+	<ObjectAttachment>	WorkingGloves_Yellow
+	<ObjectAttachment>	ManSuit_Black
+	<ObjectAttachment>	SlacksPants_Black
+	<ObjectAttachment>	DressShoes_Black
+	<ObjectAttachment>	BeanieHat_Black
+	<ObjectAttachment>	HipPack_Black
+
+	// ID=7 - Rare Items
+	<Object> 			SurvivorF_Baty
+	<ObjectPosition>	4343.85,	4.23,	4742.86
+	<ObjectOrientation>	150,	0,	0
+	<ObjectAttachment>	Loftd_Shoulderholster_black
+	<ObjectAttachment>	Deagle_Gold
+	<ObjectAttachment>	Mag_Deagle_9rnd
+	<ObjectAttachment>	PistolSuppressor
+	<ObjectAttachment>	Loftd_BeanieHatF
+	<ObjectAttachment>	Loftd_Reinajacket_teh
+	<ObjectAttachment>	Loftd_Leggings2
+	<ObjectAttachment>	High_Knee_Sneakers_Black
+	<ObjectAttachment>	WoolGlovesFingerless_Black
+
+	// ID=8 - Helicopter Parts and Equipment-Trader
+	<Object> 			SurvivorM_Quinn
+	<ObjectPosition>	6328.37,	20.84,	9426.25
+	<ObjectOrientation>	-140,	0,	0
+	<ObjectAttachment>	Loftd_Shoulderholster_black
+	<ObjectAttachment>	Deagle_Gold
+	<ObjectAttachment>	Mag_Deagle_9rnd
+	<ObjectAttachment>	PistolSuppressor
+	<ObjectAttachment>	AviatorGlasses
+	<ObjectAttachment>	PetushokHat_Yellow
+	<ObjectAttachment>	Loftd_bomberjacket
+	<ObjectAttachment>	WorkingGloves_Black
+	<ObjectAttachment>	CargoPants_Blue
+	<ObjectAttachment>	MilitaryBoots_Black
+
+<FileEnd>
