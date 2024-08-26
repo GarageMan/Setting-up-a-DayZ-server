@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!-- source: https://pastebin.com/jzBPMPjn -->
+<!-- adapted by Garageman on 22-AUG-2024 -->
+
+<spawnabletypes>
+
+	<type name="csmcmillan_mung">
+		<attachment chance="0.50">
+			<item name=" Mag_cs5_10Rnd_mung" chance="1.00" />
+		</attachment>
+		<attachment chance="0.50">
+			<item name="mcmillan_buttstock" chance="1.00" />
+		</attachment>
+	</type>
+	
+	<type name="jaakari_simple_tan_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="jaakari_simple_black_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="jaakari_simple_camo_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="jaakari_simple_brown_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="jaakari_tan_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="jaakari_black_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="jaakari_camo_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="jaakari_brown_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="bag_6B38_Snow_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="AmmoBox" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PlateCarrierPouches" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="bag_6B38_camo_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="AmmoBox" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PlateCarrierPouches" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="bag_6B38_black_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="AmmoBox" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PlateCarrierPouches" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="bag_6B38_LETO_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="AmmoBox" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PlateCarrierPouches" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Hikingbagmung_pink">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="MediumTent" chance="0.50" />
+			<item name="MediumTent_Green" chance="0.50" />
+			<item name="MediumTent_Orange" chance="0.50" />
+			<item name="Camonet" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+			<item name="dutchoven_mung" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Tripod" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="FirstAidKit" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Compass" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Binoculars" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="oillamp_mung" chance="0.50" />
+			<item name="PortableGasLamp" chance="0.50" />
+			<item name="PortableGasStove" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<cargo chance="0.50">
+			<item name="LargeGasCanister" chance="0.50" />
+			<item name="MediumGasCanister" chance="0.50" />
+			<item name="SmallGasCanister" chance="0.50" />
+			<item name="kv5_mung" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="Hikingbagmung_meow">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="MediumTent" chance="0.50" />
+			<item name="MediumTent_Green" chance="0.50" />
+			<item name="MediumTent_Orange" chance="0.50" />
+			<item name="Camonet" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+			<item name="dutchoven_mung" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Tripod" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="FirstAidKit" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Compass" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Binoculars" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="oillamp_mung" chance="0.50" />
+			<item name="PortableGasLamp" chance="0.50" />
+			<item name="PortableGasStove" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<cargo chance="0.50">
+			<item name="LargeGasCanister" chance="0.50" />
+			<item name="MediumGasCanister" chance="0.50" />
+			<item name="SmallGasCanister" chance="0.50" />
+			<item name="kv5_mung" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="Hikingbagmung_snow">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="MediumTent" chance="0.50" />
+			<item name="MediumTent_Green" chance="0.50" />
+			<item name="MediumTent_Orange" chance="0.50" />
+			<item name="Camonet" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+			<item name="dutchoven_mung" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Tripod" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="FirstAidKit" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Compass" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Binoculars" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="oillamp_mung" chance="0.50" />
+			<item name="PortableGasLamp" chance="0.50" />
+			<item name="PortableGasStove" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<cargo chance="0.50">
+			<item name="LargeGasCanister" chance="0.50" />
+			<item name="MediumGasCanister" chance="0.50" />
+			<item name="SmallGasCanister" chance="0.50" />
+			<item name="kv5_mung" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="Hikingbagmung_white">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="MediumTent" chance="0.50" />
+			<item name="MediumTent_Green" chance="0.50" />
+			<item name="MediumTent_Orange" chance="0.50" />
+			<item name="Camonet" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+			<item name="dutchoven_mung" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Tripod" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="FirstAidKit" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Compass" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Binoculars" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="oillamp_mung" chance="0.50" />
+			<item name="PortableGasLamp" chance="0.50" />
+			<item name="PortableGasStove" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<cargo chance="0.50">
+			<item name="LargeGasCanister" chance="0.50" />
+			<item name="MediumGasCanister" chance="0.50" />
+			<item name="SmallGasCanister" chance="0.50" />
+			<item name="kv5_mung" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="Hikingbagmung_yellow">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="MediumTent" chance="0.50" />
+			<item name="MediumTent_Green" chance="0.50" />
+			<item name="MediumTent_Orange" chance="0.50" />
+			<item name="Camonet" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+			<item name="dutchoven_mung" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Tripod" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="FirstAidKit" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Compass" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Binoculars" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="oillamp_mung" chance="0.50" />
+			<item name="PortableGasLamp" chance="0.50" />
+			<item name="PortableGasStove" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<cargo chance="0.50">
+			<item name="LargeGasCanister" chance="0.50" />
+			<item name="MediumGasCanister" chance="0.50" />
+			<item name="SmallGasCanister" chance="0.50" />
+			<item name="kv5_mung" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="Hikingbagmung_red">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="MediumTent" chance="0.50" />
+			<item name="MediumTent_Green" chance="0.50" />
+			<item name="MediumTent_Orange" chance="0.50" />
+			<item name="Camonet" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+			<item name="dutchoven_mung" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Tripod" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="FirstAidKit" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Compass" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Binoculars" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="oillamp_mung" chance="0.50" />
+			<item name="PortableGasLamp" chance="0.50" />
+			<item name="PortableGasStove" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<cargo chance="0.50">
+			<item name="LargeGasCanister" chance="0.50" />
+			<item name="MediumGasCanister" chance="0.50" />
+			<item name="SmallGasCanister" chance="0.50" />
+			<item name="kv5_mung" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="Hikingbagmung_blue">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="MediumTent" chance="0.50" />
+			<item name="MediumTent_Green" chance="0.50" />
+			<item name="MediumTent_Orange" chance="0.50" />
+			<item name="Camonet" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+			<item name="dutchoven_mung" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Tripod" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="FirstAidKit" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Compass" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Binoculars" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="oillamp_mung" chance="0.50" />
+			<item name="PortableGasLamp" chance="0.50" />
+			<item name="PortableGasStove" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<cargo chance="0.50">
+			<item name="LargeGasCanister" chance="0.50" />
+			<item name="MediumGasCanister" chance="0.50" />
+			<item name="SmallGasCanister" chance="0.50" />
+			<item name="kv5_mung" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="Hikingbagmung_green">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="MediumTent" chance="0.50" />
+			<item name="MediumTent_Green" chance="0.50" />
+			<item name="MediumTent_Orange" chance="0.50" />
+			<item name="Camonet" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+			<item name="dutchoven_mung" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Tripod" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="FirstAidKit" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Compass" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Binoculars" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="oillamp_mung" chance="0.50" />
+			<item name="PortableGasLamp" chance="0.50" />
+			<item name="PortableGasStove" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<cargo chance="0.50">
+			<item name="LargeGasCanister" chance="0.50" />
+			<item name="MediumGasCanister" chance="0.50" />
+			<item name="SmallGasCanister" chance="0.50" />
+			<item name="kv5_mung" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="Hikingbagmung_black">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="MediumTent" chance="0.50" />
+			<item name="MediumTent_Green" chance="0.50" />
+			<item name="MediumTent_Orange" chance="0.50" />
+			<item name="Camonet" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+			<item name="dutchoven_mung" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Tripod" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="FirstAidKit" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Compass" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Binoculars" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="oillamp_mung" chance="0.50" />
+			<item name="PortableGasLamp" chance="0.50" />
+			<item name="PortableGasStove" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<cargo chance="0.50">
+			<item name="LargeGasCanister" chance="0.50" />
+			<item name="MediumGasCanister" chance="0.50" />
+			<item name="SmallGasCanister" chance="0.50" />
+			<item name="kv5_mung" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="Hikingbagmung_camo">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PersonalRadio" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Chemlight_Blue" chance="0.50" />
+			<item name="Chemlight_Green" chance="0.50" />
+			<item name="Chemlight_Red" chance="0.50" />
+			<item name="Chemlight_White" chance="0.50" />
+			<item name="Chemlight_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="MediumTent" chance="0.50" />
+			<item name="MediumTent_Green" chance="0.50" />
+			<item name="MediumTent_Orange" chance="0.50" />
+			<item name="Camonet" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Pot" chance="0.50" />
+			<item name="dutchoven_mung" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Tripod" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="FirstAidKit" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Compass" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Binoculars" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="oillamp_mung" chance="0.50" />
+			<item name="PortableGasLamp" chance="0.50" />
+			<item name="PortableGasStove" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<cargo chance="0.50">
+			<item name="LargeGasCanister" chance="0.50" />
+			<item name="MediumGasCanister" chance="0.50" />
+			<item name="SmallGasCanister" chance="0.50" />
+			<item name="kv5_mung" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="simplebackpack_blue_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="SmallProtectorCase" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Bear_Beige" chance="0.50" />
+			<item name="Bear_Dark" chance="0.50" />
+			<item name="Bear_Pink" chance="0.50" />
+			<item name="Bear_White" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="simplebackpack_camoblack_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="SmallProtectorCase" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Bear_Beige" chance="0.50" />
+			<item name="Bear_Dark" chance="0.50" />
+			<item name="Bear_Pink" chance="0.50" />
+			<item name="Bear_White" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="simplebackpack_green_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="SmallProtectorCase" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Bear_Beige" chance="0.50" />
+			<item name="Bear_Dark" chance="0.50" />
+			<item name="Bear_Pink" chance="0.50" />
+			<item name="Bear_White" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="simplebackpack_redpink_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="SmallProtectorCase" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Bear_Beige" chance="0.50" />
+			<item name="Bear_Dark" chance="0.50" />
+			<item name="Bear_Pink" chance="0.50" />
+			<item name="Bear_White" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="simplebackpack_redyellow_mung">
+		<attachments chance="0.50">
+			<item name="Canteen" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Flashlight" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WaterproofBag_Green" chance="0.50" />
+			<item name="WaterproofBag_Orange" chance="0.50" />
+			<item name="WaterproofBag_Yellow" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="SmallProtectorCase" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Bear_Beige" chance="0.50" />
+			<item name="Bear_Dark" chance="0.50" />
+			<item name="Bear_Pink" chance="0.50" />
+			<item name="Bear_White" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="fannypack_pink_mung">
+		<attachments chance="0.50">
+			<item name="PlateCarrierHolster" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Machete" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Hatchet" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="fannypack_black_mung">
+		<attachments chance="0.50">
+			<item name="PlateCarrierHolster" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Machete" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Hatchet" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="fannypack_camo_mung">
+		<attachments chance="0.50">
+			<item name="PlateCarrierHolster" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Machete" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Hatchet" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="fannypack_multi_mung">
+		<attachments chance="0.50">
+			<item name="PlateCarrierHolster" chance="0.20" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Machete" chance="0.50" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Hatchet" chance="0.50" />
+		</attachments>
+	</type>
+</spawnabletypes>

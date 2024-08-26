@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- adapted for Alteria by garageman on 17-AUG-2024 -->
+
+<spawnabletypes>
+
+	<damage min="0.01" max="0.35" />
+	
+	<type name="Tactical_Leg_Holster_Black" />
+	<type name="Leather_Cloak_down" >
+		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
+	</type>
+	<type name="Leather_Cloak_up" >
+		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
+	</type>
+	<type name="Legging_Shorts_Black" />
+	<type name="BJJ_GI_Lower_White" />
+	<type name="BJJ_GI_Lower_Blue" />
+	<type name="BJJ_GI_Lower_Black" />
+	<type name="BJJ_GI_Upper_White" />
+	<type name="BJJ_GI_Upper_Blue" />
+	<type name="BJJ_GI_Upper_Black" />
+	<type name="Trapper_Hat_Black" />
+	<type name="Trapper_Hat_Red_Checkered" />
+	<type name="Trapper_Hat_Camo_Mossy_Oak" />
+	<type name="Shabby_Hoodie_Black" >
+		<cargo preset="toolsCity" />
+	</type>
+	<type name="Shabby_Hoodie_Blue" >
+		<cargo preset="toolsCity" />
+	</type>
+	<type name="Shabby_Hoodie_Brown" >
+		<cargo preset="toolsCity" />
+	</type>
+	<type name="Shabby_Hoodie_Green" >
+		<cargo preset="toolsCity" />
+	</type>
+	<type name="Shabby_Hoodie_Red" >
+		<cargo preset="toolsCity" />
+	</type>
+	<type name="Shabby_Hoodie_Calligraphy" >
+		<cargo preset="toolsCity" />
+	</type>
+	<type name="Blue_Leggings" />
+	<type name="Latex_Leggings" />
+	<type name="Adidas_Leggings" />
+	<type name="Red_Leggings" />
+	<type name="Purple_Leggings" />
+	<type name="Fleece_Grey_Leggings" />
+	<type name="Latex_White_Leggings" />
+	<type name="PMK_5A_Gas_Mask" />
+	<type name="Poncho_Red_Checkered" />
+	<type name="Poncho_Blue_Checkered" />
+	<type name="Poncho_Yellow_Checkered" />
+	<type name="Poncho_Brown" />
+	<type name="Poncho_Green" />
+	<type name="Poncho_White" />
+	<type name="Poncho_Red" />
+	<type name="Poncho_Black" />
+	<type name="Poncho_BlackAndWhite" />
+	<type name="Poncho_BlackAndWhite2" />
+	<type name="Fingerless_Gloves" />
+	<type name="Fingerless_Gloves_Brown" />
+	<type name="Fingerless_Gloves_Wool" />
+	<type name="Fingerless_Gloves_Wool_Grey" />
+	<type name="Fingerless_Gloves_Wool_Black" />
+	<type name="Military_Sweater" />
+	<type name="Military_Sweater_Red" />
+	<type name="Military_Sweater_Blue" />
+	<type name="Military_Sweater_Green" />
+	<type name="Military_Sweater_Black" />
+	<type name="Military_Sweater_White" />
+	<type name="High_Knee_Sneakers" />
+	<type name="High_Knee_Sneakers_Black" />
+	<type name="Shemagh_Brown" />
+	<type name="Shemagh_Green" />
+	<type name="Shemagh_Red" />
+	<type name="Shemagh_White" />
+	<type name="Shemagh_Black" />
+	<type name="Layered_Shirt_Base" />
+	<type name="Layered_Shirt_White" />
+	<type name="Layered_Shirt_Cheburashka" />
+	<type name="Layered_Shirt_Courage" />
+	<type name="Layered_Shirt_Lily" />
+	<type name="Canvas_Backpack_Base" >
+		<attachments preset="add_a_chemlight" />
+	</type>
+	<type name="Canvas_Backpack_Black" >
+		<attachments preset="add_a_chemlight" />
+	</type>
+	<type name="Canvas_Backpack_White" >
+		<attachments preset="add_a_chemlight" />
+	</type>
+	<type name="Canvas_Backpack_Red" >
+		<attachments preset="add_a_chemlight" />
+	</type>
+	<type name="Canvas_Backpack_Blue" >
+		<attachments preset="add_a_chemlight" />
+	</type>
+	<type name="Canvas_Backpack_Purple" >
+		<attachments preset="add_a_chemlight" />
+	</type>
+	<type name="Golden_Winged_Pin" />
+	<type name="Button_Pin_Radioactive" />
+	<type name="Button_Pin_Daisy" />
+	<type name="Sheriff_Badge" />
+	<type name="Ragged_Eyepatch" />
+	<type name="Kneepads_Jeans_Base" />
+	<type name="Kneepads_Jeans_Black" />
+	<type name="Winter_Parka_Base" >
+		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
+	</type>
+	<type name="Winter_Parka_White" >
+		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
+	</type>
+	<type name="Winter_Parka_Green" >
+		<cargo preset="toolsCity" />
+		<cargo preset="ammoCivil" />
+	</type>
+	<type name="Medium_Sleeves_Shirt" />
+	<type name="Medium_Sleeves_Shirt_Red" />
+	<type name="Medium_Sleeves_Shirt_Blue" />
+	<type name="FlipFlops_Colorbase" />
+	<type name="HumanSkull" />
+	<type name="SkullMask" />
+	<type name="Slouch_Hat_Brown" />
+	<type name="Eyepatch" />
+	<type name="SK8_Sneakers_Black" />
+	<type name="SK8_Sneakers_FullBlack" />
+	<type name="SK8_Sneakers_Blue" />
+	<type name="Round_Glasses" />
+	<type name="Round_Glasses_Black" />
+	<type name="Skinny_Jeans_Black" />
+	<type name="Skinny_Jeans_Blue" />
+	<type name="Tactical_Leg_Holster_Black" >
+		<attachments preset="add_a_pistol" />
+	</type>
+	<type name="Scarf_Brown" />
+	<type name="Scarf_ColorPalette1" />
+	<type name="Scarf_Blue" />
+	<type name="Wool_GreatCoat_Navy" />
+	<type name="Wool_GreatCoat_Olive" />
+	<type name="Wool_GreatCoat_Grey" />
+	<type name="Plague_Mask" />
+	<type name="Kirza_Boots" />
+	<!-- <type name="Defender_Vest_Classic" /> -->
+	<!-- <type name="Defender_Vest_Black" /> -->
+	<!-- <type name="Defender_Vest_Green" /> -->
+	<type name="Galife_Pants_Olive" />
+	<type name="Galife_Pants_Navy" />
+</spawnabletypes>
