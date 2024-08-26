@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<economycore>
+	<classes>
+		<rootclass name="DefaultWeapon" /> <!-- weapons -->
+		<rootclass name="DefaultMagazine" /> <!-- magazines -->
+		<rootclass name="Inventory_Base" /> <!-- inventory items -->
+		<rootclass name="HouseNoDestruct" reportMemoryLOD="no" /> <!-- houses, wrecks -->
+		<rootclass name="SurvivorBase" act="character" reportMemoryLOD="no" /> <!-- player characters -->
+		<rootclass name="DZ_LightAI" act="character" reportMemoryLOD="no" /> <!-- infected, animals -->
+		<rootclass name="CarScript" act="car" reportMemoryLOD="no" /> <!-- cars (sedan, hatchback, transitBus, V3S, ...) -->
+	</classes>
+	<defaults>
+		<default name="dyn_radius" value="30" />
+		<default name="dyn_smin" value="0" />
+		<default name="dyn_smax" value="0" />
+		<default name="dyn_dmin" value="1" />
+		<default name="dyn_dmax" value="5" />
+		<default name="log_ce_loop" value="false"/>
+		<default name="log_ce_dynamicevent" value="false"/>
+		<default name="log_ce_vehicle" value="false"/>
+		<default name="log_ce_lootspawn" value="false"/>
+		<default name="log_ce_lootcleanup" value="false"/>
+		<default name="log_ce_lootrespawn" value="false"/>
+		<default name="log_ce_statistics" value="false"/>
+		<default name="log_ce_zombie" value="false"/>
+		<default name="log_storageinfo" value="false"/>
+		<default name="log_hivewarning" value="true"/>
+		<default name="log_missionfilewarning" value="true"/>
+		<default name="save_events_startup" value="true"/>
+		<default name="save_types_startup" value="true"/>
+		<default name="randomloot_deloot_perevent" value="6" /> <!-- <default name="randomloot_deloot_perevent" value="2" /> -->
+	</defaults>
+	
+	<ce folder="custom_files">
+	
+	<!-- Alteria specific -->
+		<file name="types_jmc.xml" type="types" />
+	
+	<!-- Base building -->
+		<file name="BuildingFortifications_types.xml" type="types" />
+		<file name="CodeLock_types.xml" type="types" />
+		<file name="MMG_basestorage_types.xml" type="types" />
+
+	<!-- Misc. -->
+		<file name="Dovecote_types.xml" type="types" />
+		<file name="Zen_LeftOvers_types.xml" type="types" />
+		<file name="VanillaBooks_types.xml" type="types" />
+		<file name="MunghardsItempack_types.xml" type="types" />
+		<file name="MunghardsItempack_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="Boomlaysthings_types.xml" type="types" />
+		<file name="missing_vanilla_items_types.xml" type="types" />
+		<file name="CJ187_MoreCrashsites_types.xml" type="types" />
+
+	<!-- Animals, Creatures, etc. -->
+		<file name="dbo_creatures_types.xml" type="types" />
+		<file name="dbo_creatures_spawnabletypes.xml" type="spawnabletypes" />
+	
+		<file name="DayZ_rat_types.xml" type="types" />
+		<!-- <file name="DayZ_rat_events.xml" type="events" /> -->
+		
+	<!-- Weapons -->
+		<file name="SNAFU_types.xml" type="types" />
+		<file name="SNAFU_spawnabletypes.xml" type="spawnabletypes" />
+		
+	<!-- Vehicles -->
+
+	<!-- Clothing -->
+		<file name="WindstridesClothingPack_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="WindstridesClothingPack_types.xml" type="types" />
+
+		<file name="MMG_types.xml" type="types" />
+		<file name="MMG_spawnabletypes.xml" type="spawnabletypes" />
+		
+	<!-- Medic, Food -->
+		<file name="Zen_Virus_types.xml" type="types" />
+		
+	</ce>
+</economycore>
