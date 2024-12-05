@@ -1,13 +1,20 @@
 <!-- reduced mapgrouppos.xml for Steam DayZ workshop "Sakhal Bunker (Free .json)" -->
 <!-- https://steamcommunity.com/sharedfiles/filedetails/comments/3374168582 -->
 
+<!-- Just copy and paste the following lines into your vanilla mapgrouppos.xml file on you Sakhal server -->
+
+<!-- Enjoy Asmondian's Steam workshop 'Sakhal Bunker (Free .json)! -->
+
+<!-- Garageman, 05-DEC-2024 -->
+
+
 <!-- Bunker START -->
+
+
 	<group name="Land_Airfield_Hangar_Green" pos="7299.945801 8.956556 7429.496094" rpy="0.000000 0.499889 79.596817" a="10.4032"/>
 	<group name="Land_Boat_Small9" pos="9235.440430 -0.169826 13872.900391" rpy="0.000000 0.000000 -51.455479" a="141.455"/>
 	<group name="Land_CementWorks_ExpeditionA" pos="11958.030273 158.573029 10204.796875" rpy="-0.000000 0.000000 136.750427" a="-46.7504"/>
 	<group name="Land_CementWorks_SiloBig1A" pos="11930.566406 170.456558 10173.814453" rpy="-0.000000 0.000000 48.429459" a="41.5705"/>
-	<group name="Land_CementWorks_SiloBig1B" pos="11898.597656 164.998291 10211.541016" rpy="0.000000 0.000000 -131.572144" a="-138.428"/>
-	<group name="Land_CementWorks_SiloBig1B" pos="11956.033203 165.017029 10145.976563" rpy="-0.000000 0.000000 48.429077" a="41.5709"/>
 	<group name="Land_Church1_Yellow" pos="6998.032715 12.017287 13409.352539" rpy="0.000000 0.000000 -9.500176" a="99.5002"/>
 	<group name="Land_Church2_2" pos="6513.369141 14.468733 12847.991211" rpy="-0.000000 -0.000000 53.999969" a="36"/>
 	<group name="Land_Church4_Dam" pos="12847.551758 19.752216 7460.735840" rpy="0.000000 0.000000 -144.000000" a="-126"/>
@@ -35,16 +42,12 @@
 	<group name="Land_Container_1Moh" pos="9815.559570 246.651962 8478.690430" rpy="-0.000000 0.000000 59.165180" a="30.8348"/>
 	<group name="Land_Container_1Moh_DE" pos="9784.655273 236.697006 8439.039063" rpy="-0.000000 0.000000 148.750946" a="-58.7509"/>
 	<group name="Land_Container_1Moh_DE" pos="9787.579102 236.661469 8440.775391" rpy="-0.000000 0.000000 148.451004" a="-58.451"/>
-	<group name="Land_Dead_MassGrave" pos="5038.939941 3.046088 11353.497070" rpy="-0.000000 -0.000000 0.000000" a="90"/>
 	<group name="Land_Medical_Tent_Big" pos="7293.377441 3.004397 7420.493164" rpy="0.000000 0.499871 77.108627" a="12.8914"/>
 	<group name="Land_Medical_Tent_Big" pos="7309.536133 3.164294 7436.430664" rpy="-0.500000 0.000000 -9.503145" a="99.5031"/>
 	<group name="Land_Medical_Tent_Big" pos="8434.516602 30.777576 10339.098633" rpy="-0.000000 0.000000 -53.999996" a="144"/>
 	<group name="Land_Medical_Tent_Big" pos="8442.833984 30.772575 10333.218750" rpy="-0.000000 0.000000 -53.999996" a="144"/>
 	<group name="Land_Mil_ATC_Small" pos="3955.032959 13.433144 9060.085938" rpy="-0.000000 0.000000 6.819059" a="83.1809"/>
 	<group name="Land_Mil_Barracks5" pos="7264.414551 8.534525 7517.448242" rpy="0.000000 0.000000 -100.602921" a="-169.397"/>
-	<group name="Land_Mil_CamoNet_Roof_east" pos="5023.961914 17.389210 11368.316406" rpy="-0.000000 -0.000000 165.043350" a="-75.0434"/>
-	<group name="Land_Mil_CamoNet_Roof_east" pos="5596.473145 16.099688 4287.682617" rpy="-0.000000 -0.000000 144.526077" a="-54.5261"/>
-	<group name="Land_Mil_CamoNet_Roof_east" pos="5609.786133 16.249439 4301.195801" rpy="-0.000000 -0.000000 -31.280800" a="121.281"/>
 	<group name="Land_Mil_ControlTower" pos="3276.353271 12.137413 9338.827148" rpy="0.000000 0.000000 23.341049" a="66.659"/>
 	<group name="Land_Mil_ControlTower" pos="4228.200195 12.907100 8972.759766" rpy="0.000000 0.000000 -152.827927" a="-117.172"/>
 	<group name="Land_Mil_Fortified_Nest_Big" pos="5046.171875 3.690346 11353.273438" rpy="0.000000 0.000000 73.999901" a="16.0001"/>
@@ -105,7 +108,19 @@
 	<group name="Land_Misc_DeerStand2" pos="9888.969727 43.488499 13276.299805" rpy="0.000000 0.000000 122.870003" a="-32.87"/>
 	<group name="Land_Misc_Scaffolding" pos="5667.308594 4.493385 10850.670898" rpy="-0.000000 -0.000000 -37.185181" a="127.185"/>
 	<group name="Land_Misc_Scaffolding" pos="5843.537109 9.490832 10219.224609" rpy="0.000000 0.000000 -126.912506" a="-143.087"/>
-	<group name="Land_MobileLaboratory" pos="9825.762695 255.309753 8490.626953" rpy="-0.000000 0.000000 59.473492" a="30.5265"/>
+	<group name="Land_Roadblock_Table" pos="13266.925781 11.271091 12068.379883" rpy="-0.000000 -0.000000 -154.090622" a="-115.909"/>
+	<group name="Land_Roadblock_Table" pos="4429.719727 2.731230 8765.053711" rpy="3.962984 -1.787987 -53.093983" a="143.094"/>
+	<group name="Land_Roadblock_Table" pos="5015.203613 15.543039 11380.541016" rpy="-0.000000 -0.000000 -14.876807" a="104.877"/>
+	<group name="Land_Roadblock_Table" pos="5020.793457 3.548926 11376.290039" rpy="-0.000000 -0.000000 -15.190848" a="105.191"/>
+	<group name="Land_Roadblock_Table" pos="5022.324707 3.549780 11376.072266" rpy="-0.000000 -0.000000 75.990799" a="14.0092"/>
+	<group name="Land_Roadblock_Table" pos="5022.734375 15.480274 11366.207031" rpy="-0.000000 -0.000000 72.330612" a="17.6694"/>
+	<group name="Land_Roadblock_Table" pos="5023.320801 15.491505 11364.260742" rpy="-0.000000 -0.000000 -105.507355" a="-164.493"/>
+	<group name="Land_Roadblock_Table" pos="5031.569824 15.528623 11374.908203" rpy="-0.000000 -0.000000 -103.248093" a="-166.752"/>
+	<group name="Land_Roadblock_Table" pos="5033.073730 15.530454 11374.699219" rpy="-0.000000 -0.000000 165.416824" a="-75.4168"/>
+	<group name="Land_Roadblock_Table" pos="6338.717285 2.625380 12788.062500" rpy="1.274993 -0.854560 -44.934055" a="134.934"/>
+	<group name="Land_Roadblock_Table" pos="6341.312500 2.526100 12781.228516" rpy="0.000000 0.000000 -17.934402" a="107.934"/>
+	<group name="Land_Roadblock_Table" pos="6344.592285 2.537830 12782.954102" rpy="0.000000 0.000000 -26.934361" a="116.934"/>
+	<group name="Land_Roadblock_Table" pos="6571.787598 11.261466 7309.346191" rpy="-0.950812 1.233823 131.080063" a="-41.0801"/>
 	<group name="Land_Roadblock_WoodenCrate" pos="6339.695801 2.610335 12791.781250" rpy="-0.000000 0.000000 -24.076834" a="114.077"/>
 	<group name="Land_Roadblock_WoodenCrate" pos="7134.881836 2.955752 7443.016113" rpy="-0.000000 -0.000000 -120.445000" a="-149.555"/>
 	<group name="Land_Roadblock_WoodenCrate" pos="7136.916016 2.983188 7436.843262" rpy="-0.000000 -0.000000 -120.445000" a="-149.555"/>
@@ -117,6 +132,13 @@
 	<group name="Land_Sawmill_Illuminanttower" pos="10985.700195 360.307953 11479.099609" rpy="0.000000 0.000000 178.212952" a="-88.213"/>
 	<group name="Land_Smokestack_Brick" pos="11919.662109 161.822357 10132.608398" rpy="0.000000 0.000000 -130.207489" a="-139.793"/>
 	<group name="Land_Tower_TC2_Base" pos="10289.235352 275.611450 8565.104492" rpy="-0.000000 0.000000 -35.672493" a="125.672"/>
+	<group name="Land_Underground_Floor_Comms" pos="9804.424805 255.492004 8450.746094" rpy="-0.000000 0.000000 59.342190" a="30.6578"/>
+	<group name="Land_Underground_Storage_Ammo2" pos="9818.483398 245.408997 8459.734375" rpy="-0.000000 0.000000 59.613186" a="30.3868"/>
+	<group name="Land_Underground_Storage_Barracks" pos="9839.719727 255.376007 8454.330078" rpy="0.000000 0.000000 59.299980" a="30.7"/>
+	<group name="Land_Underground_Storage_Big" pos="9807.070313 245.406998 8479.349609" rpy="0.000000 0.000000 59.600098" a="30.3999"/>
+	<group name="Land_Underground_Storage_Big" pos="9820.129883 255.382004 8487.500000" rpy="0.000000 0.000000 59.619469" a="30.3805"/>
+	<group name="Land_Underground_Storage_Workshop" pos="9789.820313 255.380005 8471.599609" rpy="0.000000 0.000000 -120.599991" a="-149.4"/>
+	<group name="Land_Wall_FenForest_Gate" pos="8056.258789 28.385569 7869.371094" rpy="0.000000 0.000000 -89.408875" a="179.409"/>
 	<group name="Land_WarheadStorage_Room2" pos="9812.260742 255.348557 8466.973633" rpy="-0.000000 0.000000 151.207245" a="-61.2072"/>
 	<group name="Land_WarheadStorage_Room3" pos="9790.798828 235.473480 8449.359375" rpy="-0.000000 0.000000 59.264709" a="30.7353"/>
 	<group name="Land_WarheadStorage_Room3" pos="9794.427734 235.473541 8443.875000" rpy="-0.000000 0.000000 -120.721992" a="-149.278"/>
