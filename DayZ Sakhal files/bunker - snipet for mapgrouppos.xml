@@ -1,3 +1,6 @@
+<!-- reduced mapgrouppos.xml for Steam DayZ workshop "Sakhal Bunker (Free .json)" -->
+<!-- https://steamcommunity.com/sharedfiles/filedetails/comments/3374168582 -->
+
 <!-- Bunker START -->
 	<group name="Land_Airfield_Hangar_Green" pos="7299.945801 8.956556 7429.496094" rpy="0.000000 0.499889 79.596817" a="10.4032"/>
 	<group name="Land_Boat_Small9" pos="9235.440430 -0.169826 13872.900391" rpy="0.000000 0.000000 -51.455479" a="141.455"/>
